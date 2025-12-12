@@ -66,8 +66,8 @@ const GlobeViz: React.FC<GlobeVizProps> = ({ onSelectMilestone, selectedId }) =>
         ref={globeEl}
         width={dimensions.width}
         height={dimensions.height}
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-dark.jpg"
-        backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+        globeImageUrl="https://unpkg.com/three-globe/example/img/earth-dark.jpg"
+        backgroundImageUrl="https://unpkg.com/three-globe/example/img/night-sky.png"
         
         // Points (Markers)
         pointsData={pointsData}
